@@ -1,0 +1,34 @@
+.feature{
+max-width: 1024px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+gap: 20px;
+z-index: 1;
+}
+.featureItem{
+display: flex;
+flex-direction: column;
+flex-basis:33.33%;
+position: relative;
+color: white;
+border-radius:10px;
+overflow: hidden;
+z-index: 1;
+}
+
+.featureImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featureImage:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease;
+}
+.featureTitles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+}

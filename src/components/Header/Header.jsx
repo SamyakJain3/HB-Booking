@@ -6,8 +6,13 @@ import {DateRange} from 'react-date-range'
 import 'react-date-range/dist/styles.css'; 
 import 'react-date-range/dist/theme/default.css'; 
 import {format} from 'date-fns'
-const Header = () => {
-    const[openDate, setOpenDate] = useState(false);
+
+
+
+const Header = ({type} ) => {
+
+const[openDate, setOpenDate] = useState(false);
+
 const [date, setDate] = useState([
     {
         startDate: new Date(),
@@ -15,6 +20,7 @@ const [date, setDate] = useState([
         key: 'selection'
     }
 ]);
+
 const [openOptions, setOpenOptions] = useState(false);
 const [options, setOptions] = useState({
     adult: 1,
@@ -35,7 +41,7 @@ const handleOption = (name, operation) => {
 };
   return (
     <div className="header">
-        <div className="headerConatiner">
+        <div className={'headerContainer' + (type === 'list' ? ' listMode' : '')}>
 
         <div className="headerList">
             <div className="headerListItems active">
@@ -59,7 +65,7 @@ const handleOption = (name, operation) => {
                 <span>Airport Taxis</span>
             </div>
         </div>
-        <h1 className='headerTitle'>A lifetime of discount ? It's Genius.</h1>
+      { type!== 'list' && <> <h1 className='headerTitle'>A lifetime of discount ? It's Genius.</h1>
         <p className='headerDesc'>Get rewarded for your travels - unlock instant savings on your next trip.</p>
         <button className='headerBtn'>Sign in / Register</button>
         <div className="headerSearch">
@@ -119,7 +125,7 @@ const handleOption = (name, operation) => {
             <button className='headerBtn'>Search</button>
             </div>
         </div>
-            </div>
+            </div> </>}
         </div>
     </div>
   )

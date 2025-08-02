@@ -5,10 +5,11 @@
     justify-content: center;
     position: relative;
 }
-.headerConatiner{
-width: 100%;
-max-width: 1024px;
-margin: 20px 0 100px 0;
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
 }
 
 .headerList{
@@ -70,6 +71,7 @@ cursor: pointer;
 .date{
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 .headerSearchItem{
     display: flex;
@@ -86,7 +88,7 @@ cursor: pointer;
     color: gray;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-
+z-index: 2;
 }
 
 .optionItem{

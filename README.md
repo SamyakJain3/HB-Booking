@@ -1,46 +1,52 @@
 # Booking App
 
-A simple hotel booking web application built with **React** and **Vite**.
+A simple hotel/property booking web application built with **React** and **Vite**.
+
+---
 
 ## Features
 
-- Modern React (v19) with functional components and hooks
-- Routing with `react-router-dom`
-- Date selection with `react-date-range`
-- Responsive UI with custom CSS
-- Modular component structure
+- Modern React with functional components and hooks
+- Property listing with images and categories
+- Date and guest selection for booking
+- Responsive design with custom CSS
+- Modular component structure (Header, Footer, PropertyList, etc.)
+
+---
 
 ## Project Structure
 
 ```
 ├── public/
-│   └── vite.svg
 ├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
 │   ├── assets/
+│   │   └── PropertyImg/
 │   ├── components/
+│   │   ├── Footer/
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.css
 │   │   ├── Header/
 │   │   │   ├── Header.jsx
 │   │   │   └── header.css
-│   │   └── Navbar/
-│   │       ├── Navbar.jsx
-│   │       └── Navbar.css
-│   └── pages/
-│       ├── Home/
-│       │   ├── Home.jsx
-│       │   └── Home.css
-│       ├── Hotel/
-│       │   └── Hotel.jsx
-│       └── List/
-│           └── List.jsx
+│   │   ├── PropertyList/
+│   │   │   ├── PropertyList.jsx
+│   │   │   └── PropertyList.css
+│   │   └── featured/
+│   │       ├── feature.jsx
+│   │       └── featured.css
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Hotel/
+│   │   └── List/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 ├── index.html
 ├── package.json
-├── vite.config.js
-├── eslint.config.js
-└── .gitignore
+└── vite.config.js
 ```
+
+---
 
 ## Getting Started
 
@@ -64,11 +70,16 @@ A simple hotel booking web application built with **React** and **Vite**.
    npm run preview
    ```
 
-## Main Pages
+---
 
-- `/` - Home page with search and navigation
-- `/hotels` - List of hotels
-- `/hotels/:id` - Hotel details
+## Main Components
+
+- **Header**: Search bar, date picker, guest/room selection
+- **PropertyList**: Displays property types with images
+- **Featured**: Highlights featured hotels/properties
+- **Footer**: App footer with links and copyright
+
+---
 
 ## Dependencies
 
@@ -77,6 +88,8 @@ A simple hotel booking web application built with **React** and **Vite**.
 - [react-router-dom](https://reactrouter.com/)
 - [react-date-range](https://github.com/hypeserver/react-date-range)
 - [react-icons](https://react-icons.github.io/react-icons/)
+
+---
 
 ## License
 
