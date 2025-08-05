@@ -57,7 +57,7 @@ cursor: pointer;
 
 }
 .headerIcon{
-    color: lightgray;
+    color: gray;
 }
 .headerSearchInput{
     border: none;
@@ -65,7 +65,7 @@ cursor: pointer;
 }
 .headerSearchText{
     cursor: pointer;
-    color: lightgray;
+    color: gray;
 }
 
 .date{
@@ -76,6 +76,7 @@ cursor: pointer;
 .headerSearchItem{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     position: relative;
 }

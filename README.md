@@ -1,39 +1,54 @@
 # Booking App
 
-A simple hotel/property booking web application built with **React** and **Vite**.
+A modern hotel and property booking web application built with **React** and **Vite**.
 
 ---
 
-## Features
+## ✨ Features
 
-- Modern React with functional components and hooks
-- Property listing with images and categories
-- Date and guest selection for booking
-- Responsive design with custom CSS
-- Modular component structure (Header, Footer, PropertyList, etc.)
+- **Property Search:** Search for hotels and properties by destination, date, and guest options.
+- **Property List:** Browse a list of property types (hotels, apartments, resorts, etc.) with images.
+- **Hotel Details:** View detailed information, photo gallery, and booking options for each hotel.
+- **Responsive Design:** Fully responsive layout for desktop and mobile.
+- **Date Picker:** Select check-in and check-out dates with an interactive calendar.
+- **Guest Options:** Choose number of adults, children, and rooms.
+- **Booking Highlight:** See special offers and price highlights.
+- **Reusable Components:** Modular structure with Header, Footer, PropertyList, Featured, MailList, and more.
+- **Image Gallery:** Clickable hotel images with slider navigation.
+- **Modern UI:** Clean, attractive interface with custom CSS and React Icons.
 
 ---
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
+Booking-App/
 ├── public/
+│   └── vite.svg
 ├── src/
 │   ├── assets/
-│   │   └── PropertyImg/
+│   │   ├── PropertyImg/
+│   │   │   ├── 1.avif
+│   │   │   ├── 2.jpg
+│   │   │   ├── 3.jpg
+│   │   │   ├── 4.jpg
+│   │   │   ├── 5.jpg
+│   │   │   ├── 6.jpg
+│   │   │   ├── 7.jpg
+│   │   │   └── 8.jpg
+│   │   └── screenshots/
+│   │       ├── 1.png
+│   │       ├── 2.png
+│   │       ├── 3.png
+│   │       ├── 4.png
+│   │       └── 5.png
 │   ├── components/
 │   │   ├── Footer/
-│   │   │   ├── Footer.jsx
-│   │   │   └── Footer.css
 │   │   ├── Header/
-│   │   │   ├── Header.jsx
-│   │   │   └── header.css
+│   │   ├── MailList/
+│   │   ├── Navbar/
 │   │   ├── PropertyList/
-│   │   │   ├── PropertyList.jsx
-│   │   │   └── PropertyList.css
 │   │   └── featured/
-│   │       ├── feature.jsx
-│   │       └── featured.css
 │   ├── pages/
 │   │   ├── Home/
 │   │   ├── Hotel/
@@ -48,7 +63,34 @@ A simple hotel/property booking web application built with **React** and **Vite*
 
 ---
 
-## Getting Started
+## 📸 Screenshots
+
+### Home Page
+
+![Home Screenshot1](./assets/screenshots/1.png)
+![Home Screenshot2](./assets/screenshots/2.png)
+![Home Screenshot3](./assets/screenshots/3.png)
+![Home Screenshot4](./assets/screenshots/4.png)
+
+### date and details
+
+![Date and Details](./assets/screenshots/5.png)
+
+### Property List
+
+![Property List Screenshot](./assets/PropertyImg/6.jpg)
+
+### Hotel Details
+
+![Hotel Details Screenshot](./assets/PropertyImg/7.jpg)
+
+### image Slider
+
+![Image Slider Screenshot](./assets/PropertyImg/8.jpg)
+
+---
+
+## 🚀 Getting Started
 
 1. **Install dependencies:**
    ```sh
@@ -72,16 +114,17 @@ A simple hotel/property booking web application built with **React** and **Vite*
 
 ---
 
-## Main Components
+## 🛠️ Main Components
 
-- **Header**: Search bar, date picker, guest/room selection
-- **PropertyList**: Displays property types with images
-- **Featured**: Highlights featured hotels/properties
-- **Footer**: App footer with links and copyright
+- **Header:** Search bar, date picker, guest/room selection.
+- **PropertyList:** Shows property types with images.
+- **Featured:** Highlights featured hotels/properties.
+- **Hotel:** Detailed hotel info, gallery, and booking.
+- **Footer:** App footer with links and copyright.
 
 ---
 
-## Dependencies
+## 📦 Dependencies
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
@@ -91,6 +134,8 @@ A simple hotel/property booking web application built with **React** and **Vite*
 
 ---
 
-## License
+## 📄 License
 
-This project is for educational/demo purposes.
+This project is for educational/demo purposes only.
+
+---
