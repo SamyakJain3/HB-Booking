@@ -67,26 +67,26 @@ Booking-App/
 
 ### Home Page
 
-![Home Screenshot1](./assets/screenshots/1.png)
-![Home Screenshot2](./assets/screenshots/2.png)
-![Home Screenshot3](./assets/screenshots/3.png)
-![Home Screenshot4](./assets/screenshots/4.png)
+![Home Screenshot1](./src/assets/screenshots/1.png)
+![Home Screenshot2](./src/assets/screenshots/2.png)
+![Home Screenshot3](./src/assets/screenshots/3.png)
+![Home Screenshot4](./src/assets/screenshots/4.png)
 
 ### date and details
 
-![Date and Details](./assets/screenshots/5.png)
+![Date and Details](./src/assets/screenshots/5.png)
 
 ### Property List
 
-![Property List Screenshot](./assets/PropertyImg/6.jpg)
+![Property List Screenshot](./src/assets/screenshots/6.png)
 
 ### Hotel Details
 
-![Hotel Details Screenshot](./assets/PropertyImg/7.jpg)
+![Hotel Details Screenshot](./src/assets/screenshots/7.png)
 
 ### image Slider
 
-![Image Slider Screenshot](./assets/PropertyImg/8.jpg)
+![Image Slider Screenshot](./src/assets/screenshots/8.png)
 
 ---
 
