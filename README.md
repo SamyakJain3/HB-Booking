@@ -78,7 +78,7 @@ Booking-App/
 
 ### Property List
 
-![Property List Screenshot](./src/assets/screenshots/6.png)
+![Property List Screenshot](./src/assets/screenshots/6..png)
 
 ### Hotel Details
 
