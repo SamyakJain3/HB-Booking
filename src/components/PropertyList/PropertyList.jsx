@@ -1,7 +1,7 @@
 import React from 'react'
 import './propertyList.css'
 
-import hotel1 from '../../assets/PropertyImg/1.avif'
+import hotel1 from '../../assets/PropertyImg/1.jpg'
 import hotel2 from '../../assets/PropertyImg/2.jpg'
 import hotel3 from '../../assets/PropertyImg/3.jpg'
 import hotel4 from '../../assets/PropertyImg/4.jpg'

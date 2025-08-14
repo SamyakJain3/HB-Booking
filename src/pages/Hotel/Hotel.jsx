@@ -6,7 +6,7 @@ import { FaLocationDot} from 'react-icons/fa6';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 import { BiExit } from 'react-icons/bi';
-import image from '../../assets/PropertyImg/1.avif'
+import image from '../../assets/PropertyImg/1.jpg'
 import image2 from '../../assets/PropertyImg/2.jpg'
 import image3 from '../../assets/PropertyImg/3.jpg'
 import image4 from '../../assets/PropertyImg/4.jpg'

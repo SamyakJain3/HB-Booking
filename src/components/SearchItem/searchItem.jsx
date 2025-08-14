@@ -1,6 +1,6 @@
 import React from 'react'
 import './searchItem.css'
-import Image from '../../assets/PropertyImg/1.avif'
+import Image from '../../assets/PropertyImg/1.jpg'
 import { useNavigate } from 'react-router-dom'
 const searchItem = () => {
   const navigate  = useNavigate();
